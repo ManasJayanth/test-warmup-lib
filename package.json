@@ -1,0 +1,10 @@
+{
+  "name": "test-warmup-lib",
+  "version": "0.1.0",
+  "description": "Dummy library to test import-dependencies",
+  "esy": {
+    "buildsInSource": true,
+    "build": "make",
+    "install": "make install"
+  }
+}
