@@ -4,6 +4,9 @@
   "description": "Dummy library to test import-dependencies",
   "esy": {
     "buildsInSource": true,
+    "buildEnv": {
+      "PREFIX": "#{os == 'windows' ? 'x86_64-W64-mingw32-': ''}"
+    },
     "build": "make",
     "install": "make install"
   }
